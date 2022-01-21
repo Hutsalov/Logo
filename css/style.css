@@ -146,14 +146,15 @@ nav li a{
 }
 
 .footer_img{
-  margin-right: 160px;
+  margin-left: 40px;
 }
 
 .ul_footer{
   display: flex;
   justify-content: end;
   text-decoration: none;
-  list-style: none;   
+  list-style: none; 
+  margin-left: 200px;  
   
 }
 
@@ -173,7 +174,7 @@ nav li a{
     
 }
 .part {
-  margin-left: 50px;
+  margin-left: 125px;
   padding-right: 7px;
 }
 .man2 {
@@ -187,7 +188,7 @@ nav li a{
   justify-content: start;
   width: 556px;
   height: 57px;
-  margin-right:70px ;
+  margin-right:110px ;
 }
 .email p{
   font-family: DM Sans;
@@ -211,4 +212,97 @@ input::placeholder{
   color: #000000;
   padding-left: 14px;
 
+}
+.get p{
+  margin: 85px 0px 0px 380px ;
+  width: 504px;
+  height: 128px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.87579px;
+
+color: #19191B;
+}
+
+.box{
+  margin: 110px 285px 132px 290px;
+  display: flex;
+  justify-content: space-evenly;
+  position: static;
+}
+.box_item{
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 441px;
+  background: #F8F8F8;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-evenly;  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  text-align: center;
+  position: static;
+
+}
+
+.box_item:hover{
+   
+  border: 1px solid #5454D4;  
+  cursor: pointer;
+  
+}
+.two{
+  color: white;
+  cursor: pointer;
+  background: #FF7143;
+  box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+}
+.two:hover{
+  border: 1px solid #FF7143;  
+  cursor: pointer; 
+
+}
+
+
+.b1{
+  margin: 0px;
+   border: 1px solid #5454D4;  
+  cursor: pointer;
+}
+.b2 {
+  margin: 0px;
+  background: #9F3919;  
+}
+
+.box0, .box2{
+
+letter-spacing: -0.531474px;
+color: #696871;
+font-family: 'Mulish', sans-serif
+}
+.b0{
+  margin-left: 0px;
+}
+.box_item h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  margin: 0px;
+  
+}
+.box_item p{
+  margin: 0px;
+  padding: 0px;
+}
+sub {
+  vertical-align: sub;
+  font-size: 30px;
+  
+}
+span{
+  color: #1D293F;
 }
